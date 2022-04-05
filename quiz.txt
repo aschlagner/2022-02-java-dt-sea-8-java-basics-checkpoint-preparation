@@ -1,44 +1,44 @@
 Q: What is the default branch of a git repository called?
-A:
+A: main
 
 Q: How do you change branches using git?
-A:
+A: git checkout <branch>
 
 Q: What is the command that allows you to create a local repository from a remote repository?
-A:
+A: git clone <git-link>
 
 Q: How do you check the status of the working directory of the local repository?
-A:
+A: git status
 
 Q: What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
-A:
+A: git add .; git commit -m 'some info'; git push
 
 Q: What is the value of the expression (true && false)?
-A:
+A: false
 
 Q: How can you write `i = i + 1` more concisely?
-A:
+A: i++
 
 Q: What does the term "concatenation" mean?
-A:
+A: concatenate - append several values to each other
 
 Q: Why is the check for "equals" with (object == object) not reliable? What should you use for check of equal objects?
-A:
+A: Because this only compares the object and not the value of the object. With .equals()
 
 Q: What Collection implementation is ordered, but not sorted?
-A:
+A: 
 
 Q: What Collection implementation has only unique elements?
-A:
+A: 
 
 Q: How can we find out the number of elements of an array named "students"?
-A:
+A: students.length
 
 Q: How can we find out the number of elements of a list named "students"?
-A:
+A: students.size()
 
 Q: In Java, what happens if I divide by Zero (eg. 8 / 0)?
-A:
+A: Error/Exception
 
 Q: How can you check if File quiz = new File("quiz.txt") exists?
 A:
@@ -47,10 +47,10 @@ Q: Depending on some attributes, an object should return isAllowed(). Should the
 A:
 
 Q: What is the signature of the `main` method of a class?
-A:
+A: public static void main(String[] args) {}
 
 Q: What is an instance of a class?
-A:
+A: A reference to an object
 
 Q: Which naming rule should you apply to the naming of a class?
 A:
