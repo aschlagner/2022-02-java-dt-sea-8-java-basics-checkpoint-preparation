@@ -1,3 +1,5 @@
+**? marks the questions I had to look up**
+
 Q: What is the default branch of a git repository called?
 A: main (master)
 
@@ -26,19 +28,19 @@ Q: Why is the check for "equals" with (object == object) not reliable? What shou
 A: Because this only compares the object in memory and not the values of the objects. Instead use "object1.equals(object2)".
 
 Q: What Collection implementation is ordered, but not sorted?
-A: List
+A: ? List
 
 Q: What Collection implementation has only unique elements?
-A: Set
+A: ? Set
 
 Q: How can we find out the number of elements of an array named "students"?
-A: students.length
+A: ? students.length
 
 Q: How can we find out the number of elements of a list named "students"?
-A: students.size()
+A: ? students.size()
 
 Q: In Java, what happens if I divide by Zero (eg. 8 / 0)?
-A: Error/Exception: java.lang.ArithmeticException: / by zero
+A: ? Error/Exception: java.lang.ArithmeticException: / by zero
 
 Q: How can you check if File quiz = new File("quiz.txt") exists?
 A: if(quiz.exists()) {}
@@ -56,10 +58,10 @@ Q: Which naming rule should you apply to the naming of a class?
 A: The name should be the same as the file name of the class with the first letter capitalised and Camel notation.
 
 Q: Why should the usage of java.util.Date be avoided?
-A: java.util.Date has some serious design flows. It doesn’t have a time zone, format and calendar system. (https://programminghints.com/2017/05/still-using-java-util-date-dont/)
+A: ? java.util.Date has some serious design flows. It doesn’t have a time zone, format and calendar system. (https://programminghints.com/2017/05/still-using-java-util-date-dont/)
 
 Q: What Java class do you use to store the Date "31.10.2021"?
-A: SimpleDateFormat - "SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");"
+A: ? SimpleDateFormat - "SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");"
 
 Q: What is the advantage of using Generics?
-A: Instead of writing a large number of specific classes for repetitive tasks, we can now write a single class and reuse.
+A: ? Instead of writing a large number of specific classes for repetitive tasks, we can now write a single class and reuse.
