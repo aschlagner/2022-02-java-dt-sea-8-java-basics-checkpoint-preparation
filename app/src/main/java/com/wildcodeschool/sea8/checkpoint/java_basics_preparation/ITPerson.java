@@ -2,6 +2,7 @@ package com.wildcodeschool.sea8.checkpoint.java_basics_preparation;
 
 public abstract class ITPerson {
 
+    private String id;
     protected String name;
 
     public ITPerson(String name) {
