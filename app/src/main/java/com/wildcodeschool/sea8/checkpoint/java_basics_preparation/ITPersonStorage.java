@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class ITPersonStorage {
 
-    List persons = new ArrayList();
+    List persons = new ArrayList<>();
 
     public boolean storePerson(Object person) {
         return persons.add(person);

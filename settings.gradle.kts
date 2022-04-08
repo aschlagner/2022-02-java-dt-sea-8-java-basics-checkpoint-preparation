@@ -7,5 +7,5 @@
  * in the user manual at https://docs.gradle.org/7.4.1/userguide/multi_project_builds.html
  */
 
-rootProject.name = "sea8-excercises-junit5-getting-started"
+rootProject.name = "2022-02-java-dt-sea-8-java-basics-checkpoint-preparation"
 include("app")

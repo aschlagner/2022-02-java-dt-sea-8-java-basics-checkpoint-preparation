@@ -3,8 +3,8 @@ package com.wildcodeschool.sea8.checkpoint.java_basics_preparation;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -39,7 +39,7 @@ public class StoringTheCrowdTest {
         ITPerson person3 = new Support("Mega_Support", 2);
 
         // Uncomment this section once you implemented the GenericStorage
-        GenericStorage<ITPerson> itPersonStorage = new GenericStorage();
+        GenericStorage<ITPerson> itPersonStorage = new GenericStorage<>();
         itPersonStorage.storePerson(person1);
         itPersonStorage.storePerson(person2);
         itPersonStorage.storePerson(person3);
